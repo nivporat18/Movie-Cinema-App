@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="niv.porat.cinema_world.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard"
+            app:popUpTo="@id/mobile_navigation" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_tvshow"
+            app:destination="@id/navigation_tvshow"
+            app:popUpTo="@id/mobile_navigation" />
+        <action
+            android:id="@+id/action_navigation_home_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="niv.porat.cinema_world.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_all_Info_Fragment"
+
+            app:destination="@id/all_Info_Fragment"
+            app:popUpTo="@id/navigation_dashboard" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_tvshow"
+        android:name="niv.porat.cinema_world.ui.tv.TvFragment"
+        android:label="tv_fragment"
+        tools:layout="@layout/tv_fragment">
+        <action
+            android:id="@+id/action_tvFragment_to_all_Info_Fragment"
+            app:destination="@id/all_Info_Fragment"
+            app:popUpTo="@id/navigation_tvshow" />
+    </fragment>
+    <fragment
+        android:id="@+id/all_Info_Fragment"
+        android:name="niv.porat.cinema_world.fragment_info_pages.All_Info_Fragment"
+        android:label="all__info__fragment"
+        tools:layout="@layout/all__info__fragment" >
+        <argument
+            android:name="productPhotoArgument"
+            app:argType="string" />
+        <argument
+            android:name="productTitleArgument"
+            app:argType="string" />
+        <argument
+            android:name="productOverViewArgument"
+            app:argType="string" />
+        <argument
+            android:name="productDateArgument"
+            app:argType="string" />
+        <argument
+            android:name="productRetingArgument"
+            app:argType="float" />
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_all_Info_Fragment_to_navigation_favorite"
+            app:destination="@id/navigation_favorite" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="niv.porat.cinema_world.ui.notifications.NotificationsFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="niv.porat.cinema_world.payment.PaymentFragment"
+        android:label="PaymentFragment" >
+        <action
+            android:id="@+id/action_paymentFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <argument
+            android:name="ticket"
+            app:argType="string" />
+    </fragment>
+</navigation>

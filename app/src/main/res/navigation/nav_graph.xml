@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="niv.porat.cinema_world.login.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first" >
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_forget_Password_Fragment"
+            app:destination="@id/forget_Password_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="niv.porat.cinema_world.login.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second" >
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forget_Password_Fragment"
+        android:name="niv.porat.cinema_world.login.Forget_Password_Fragment"
+        android:label="fragment_forget__password_"
+        tools:layout="@layout/fragment_forget__password_" >
+        <action
+            android:id="@+id/action_forget_Password_Fragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>

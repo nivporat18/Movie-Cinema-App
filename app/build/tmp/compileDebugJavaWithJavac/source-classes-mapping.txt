@@ -1,0 +1,38 @@
+niv/porat/cinema_world/databinding/PaymentFragmentBinding.java
+ niv.porat.cinema_world.databinding.PaymentFragmentBinding
+niv/porat/cinema_world/databinding/ActivitySplashScreenBinding.java
+ niv.porat.cinema_world.databinding.ActivitySplashScreenBinding
+niv/porat/cinema_world/databinding/SlideLayoutBinding.java
+ niv.porat.cinema_world.databinding.SlideLayoutBinding
+niv/porat/cinema_world/BuildConfig.java
+ niv.porat.cinema_world.BuildConfig
+niv/porat/cinema_world/databinding/FragmentForgetPasswordBinding.java
+ niv.porat.cinema_world.databinding.FragmentForgetPasswordBinding
+niv/porat/cinema_world/databinding/ActivityAuthBinding.java
+ niv.porat.cinema_world.databinding.ActivityAuthBinding
+niv/porat/cinema_world/databinding/TvFragmentBinding.java
+ niv.porat.cinema_world.databinding.TvFragmentBinding
+niv/porat/cinema_world/databinding/FragmentNotificationsBinding.java
+ niv.porat.cinema_world.databinding.FragmentNotificationsBinding
+niv/porat/cinema_world/databinding/ContentAuthBinding.java
+ niv.porat.cinema_world.databinding.ContentAuthBinding
+niv/porat/cinema_world/databinding/FragmentDashboardBinding.java
+ niv.porat.cinema_world.databinding.FragmentDashboardBinding
+niv/porat/cinema_world/databinding/FragmentSecondBinding.java
+ niv.porat.cinema_world.databinding.FragmentSecondBinding
+niv/porat/cinema_world/databinding/SlideItemBinding.java
+ niv.porat.cinema_world.databinding.SlideItemBinding
+niv/porat/cinema_world/databinding/AllInfoFragmentBinding.java
+ niv.porat.cinema_world.databinding.AllInfoFragmentBinding
+niv/porat/cinema_world/databinding/FavoriteItemBinding.java
+ niv.porat.cinema_world.databinding.FavoriteItemBinding
+niv/porat/cinema_world/databinding/FragmentHomeBinding.java
+ niv.porat.cinema_world.databinding.FragmentHomeBinding
+niv/porat/cinema_world/databinding/ActivityOnBoardingBinding.java
+ niv.porat.cinema_world.databinding.ActivityOnBoardingBinding
+niv/porat/cinema_world/databinding/SpinnerItemBinding.java
+ niv.porat.cinema_world.databinding.SpinnerItemBinding
+niv/porat/cinema_world/databinding/FragmentFirstBinding.java
+ niv.porat.cinema_world.databinding.FragmentFirstBinding
+niv/porat/cinema_world/databinding/ActivityMainBinding.java
+ niv.porat.cinema_world.databinding.ActivityMainBinding
