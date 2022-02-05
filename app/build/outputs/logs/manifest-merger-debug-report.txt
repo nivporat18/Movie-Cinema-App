@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:1-42:12
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/nivporat/.gradle/caches/transforms-3/57b510621fe875a5ca06288b343d103f/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/nivporat/.gradle/caches/transforms-3/dbdae33f61cc7ac194e530a272bbf1e8/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/nivporat/.gradle/caches/transforms-3/72bcd2fa0e7bca3abd0afa350a020851/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
@@ -114,25 +114,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nivporat/.gradle/c
 MERGED from [androidx.print:print:1.0.0] /Users/nivporat/.gradle/caches/transforms-3/ee026f0ca4cab4fe910dcaf6d09162ea/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nivporat/.gradle/caches/transforms-3/6d9ff36feff2dab92fba344c5fbcec07/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nivporat/.gradle/caches/transforms-3/eb75459904c5b59208f400557b831ee7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:1-42:12
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:1-42:12
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/nivporat/.gradle/caches/transforms-3/c60a970a268dfd1386061ae31be2b830/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/nivporat/.gradle/caches/transforms-3/c60a970a268dfd1386061ae31be2b830/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nivporat/.gradle/caches/transforms-3/f7d4f8afac23df75d327a4dff75ddca3/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
@@ -154,9 +154,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nivporat/.gradle/caches/transforms-3/1e86ac15a281463e9744c8bf90b4ddcd/transformed/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nivporat/.gradle/caches/transforms-3/1e86ac15a281463e9744c8bf90b4ddcd/transformed/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:6:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/nivporat/.gradle/caches/transforms-3/c60a970a268dfd1386061ae31be2b830/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/nivporat/.gradle/caches/transforms-3/c60a970a268dfd1386061ae31be2b830/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nivporat/.gradle/caches/transforms-3/e233701f2b388f906a5b449ce0eac8b1/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
@@ -182,9 +182,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /U
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nivporat/.gradle/caches/transforms-3/f4ef36c2cf42e3c01237b087606dcea0/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nivporat/.gradle/caches/transforms-3/f4ef36c2cf42e3c01237b087606dcea0/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:8:5-40:19
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:8:5-40:19
 MERGED from [com.tbuonomo:dotsindicator:4.2] /Users/nivporat/.gradle/caches/transforms-3/050585ba5c86b63d727b55a1f16e7652/transformed/jetified-dotsindicator-4.2/AndroidManifest.xml:11:5-47
 MERGED from [com.tbuonomo:dotsindicator:4.2] /Users/nivporat/.gradle/caches/transforms-3/050585ba5c86b63d727b55a1f16e7652/transformed/jetified-dotsindicator-4.2/AndroidManifest.xml:11:5-47
 MERGED from [com.google.android.material:material:1.6.0-alpha01] /Users/nivporat/.gradle/caches/transforms-3/cefb8a66bb15dbd77cadf012c539724b/transformed/material-1.6.0-alpha01/AndroidManifest.xml:22:5-20
@@ -274,67 +274,67 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/ni
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/nivporat/.gradle/caches/transforms-3/dcc16d1338c9696d4eb0264e542565fa/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:12:9-48
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:12:9-48
 	android:icon
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:14:9-50
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:14:9-50
 activity#niv.porat.cinema_world.viewpager.OnBoarding
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:15:9-17:40
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:17:13-37
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:16:13-49
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:16:13-49
 activity#niv.porat.cinema_world.login.AuthActivity
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:18:9-22:69
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:18:9-22:69
 	android:label
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:21:13-56
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:21:13-56
 	android:exported
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:20:13-37
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:20:13-37
 	android:theme
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:22:13-66
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:22:13-66
 	android:name
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:19:13-47
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:19:13-47
 activity#niv.porat.cinema_world.splashscreen.SplashScreenActivity
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:23:9-31:20
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:23:9-31:20
 	android:exported
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:25:13-36
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:24:13-62
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:24:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:26:13-30:29
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:29:27-74
 activity#niv.porat.cinema_world.MainActivity
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:32:9-35:48
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:32:9-35:48
 	android:label
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:35:13-45
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:35:13-45
 	android:exported
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:33:13-41
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:33:13-41
 meta-data#preloaded_fonts
-ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:37:9-39:57
+ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:37:9-39:57
 	android:resource
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:39:13-54
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:39:13-54
 	android:name
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml:38:13-43
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml:38:13-43
 uses-sdk
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/nivporat/.gradle/caches/transforms-3/57b510621fe875a5ca06288b343d103f/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/nivporat/.gradle/caches/transforms-3/57b510621fe875a5ca06288b343d103f/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/nivporat/.gradle/caches/transforms-3/dbdae33f61cc7ac194e530a272bbf1e8/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
@@ -555,16 +555,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nivporat/.gradle/c
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nivporat/.gradle/caches/transforms-3/6d9ff36feff2dab92fba344c5fbcec07/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nivporat/.gradle/caches/transforms-3/eb75459904c5b59208f400557b831ee7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nivporat/.gradle/caches/transforms-3/eb75459904c5b59208f400557b831ee7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nivporat/Desktop/full_stack/Android/cinema_world/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nivporat/Desktop/full_stack/Android/CinemaProject/app/src/main/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.0] /Users/nivporat/.gradle/caches/transforms-3/4da3437d23d17a32322bc2d74dc231d2/transformed/jetified-firebase-messaging-ktx-23.0.0/AndroidManifest.xml:26:9-32:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.2] /Users/nivporat/.gradle/caches/transforms-3/e64fc5594ab8fd994d4db4bca2918bb3/transformed/jetified-firebase-analytics-ktx-20.0.2/AndroidManifest.xml:8:9-14:19
