@@ -82,7 +82,8 @@ class PaymentFragment : Fragment() {
         })
         binding.btnPay.setOnClickListener {
             hideKeyboard(this.requireActivity())
-            if (fullName == "" || numberCard == "" || expiry == "" || cvv == ""  ) {
+            if (fullName == "" ||fullName.length < 2 ||numberCard == "" ||
+                numberCard.length < 16|| expiry == "" || expiry.length < 4|| cvv == "" || cvv.length < 3  ) {
                 AlertDialog.Builder(this.requireContext()).setTitle("Error")
                     .setMessage("Please fill in all the details")
                     .setPositiveButton("OK") { _, _ -> }

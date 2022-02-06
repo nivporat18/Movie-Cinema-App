@@ -1,5 +1,6 @@
 package niv.porat.cinema_world.repo
 
+import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.auth.FirebaseAuth
@@ -88,6 +89,7 @@ class AppRepository {
     fun addToFavorite(favorite: Favorite) {
         AppRealTimeDatabase.getRoot().child(FirebaseAuth.getInstance().currentUser!!.uid)
             .child("favorite").push().setValue(favorite)
+
     }
 
 
@@ -97,9 +99,7 @@ class AppRepository {
                 remove.child("title").value!! == name
             }
             foundFavorite?.ref?.removeValue()
-            if (foundFavorite == null) {
-                println(name)
-            }
+
         }
     }
 

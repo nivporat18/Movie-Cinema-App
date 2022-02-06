@@ -43,7 +43,7 @@ class All_Info_Fragment : Fragment() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
-        println("Selected")
+
         return super.onOptionsItemSelected(item)
     }
 
