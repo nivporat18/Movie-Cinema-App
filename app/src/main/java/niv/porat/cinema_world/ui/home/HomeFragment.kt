@@ -244,12 +244,7 @@ class HomeFragment : ProgressFragment() {
 
     override fun onResume() {
         super.onResume()
-        val user = FirebaseAuth.getInstance().currentUser
-        if (user != null) {
-            val email = user!!.email
-            val name = email!!.split("@")[0]
-            Toast.makeText(requireContext(), "Welcome, $name", Toast.LENGTH_SHORT).show()
-        }
+
     }
 
     override fun onDestroyView() {

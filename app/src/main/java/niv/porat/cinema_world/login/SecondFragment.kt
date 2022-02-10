@@ -1,5 +1,6 @@
 package niv.porat.cinema_world.login
 
+import android.app.ProgressDialog
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -20,8 +21,7 @@ class SecondFragment : Fragment() {
 
     private val email get() = binding.etEmailRegister.text.toString()
     private val password get() = binding.etPasswordRegister.text.toString()
-    private lateinit var mainViewModel:MainViewModel
-private var _binding: FragmentSecondBinding? = null
+    private var _binding: FragmentSecondBinding? = null
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
@@ -38,8 +38,7 @@ private var _binding: FragmentSecondBinding? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        mainViewModel =
-            ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
+
         binding.buttonRegister.setOnClickListener {
             hideKeyboard(this.requireActivity())
             register()
@@ -61,11 +60,21 @@ override fun onDestroyView() {
                 Snackbar.LENGTH_LONG).show()
             return
         }
+        val progress = ProgressDialog(context)
+        progress.setTitle("Cinema World")
+        progress.setMessage("Loading..")
+        progress.setCancelable(false)
+        progress.show()
+
         FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
             .addOnSuccessListener {
-                findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+                FirebaseAuth.getInstance().signOut()
+                progress.hide()
+                findNavController().popBackStack()
+
             }
             .addOnFailureListener {
+                progress.hide()
                 Snackbar.make(binding.buttonRegister,it.localizedMessage ?: "Unknown error,try again"
                     , Snackbar.LENGTH_LONG).show()
             }

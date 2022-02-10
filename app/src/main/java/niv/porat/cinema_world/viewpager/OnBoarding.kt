@@ -73,7 +73,7 @@ class OnBoarding : AppCompatActivity() {
                     btn_continue.visibility = View.VISIBLE
 
                     btn_continue.setOnClickListener {
-                        startActivity(Intent(this@OnBoarding, MainActivity::class.java))
+                        startActivity(Intent(this@OnBoarding, AuthActivity::class.java))
                     }
 
                 }

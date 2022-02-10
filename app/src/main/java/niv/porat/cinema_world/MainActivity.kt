@@ -62,22 +62,12 @@ class MainActivity : AppCompatActivity() {
         return super.onSupportNavigateUp()
     }
 
-    override fun onResume() {
-        super.onResume()
-        FirebaseAuth.getInstance().addAuthStateListener {
-            val user = FirebaseAuth.getInstance().currentUser
-            if (user == null) {
-                startActivity(Intent(this, AuthActivity::class.java))
-                finish()
-            }
-        }
-    }
-
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
         if (id == R.id.signout) {
             FirebaseAuth.getInstance().signOut()
+            startActivity(Intent(this,AuthActivity::class.java))
+            finish()
         }
 
         return super.onOptionsItemSelected(item)

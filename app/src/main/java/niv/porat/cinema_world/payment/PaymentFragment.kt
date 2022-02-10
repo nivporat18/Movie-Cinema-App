@@ -82,8 +82,9 @@ class PaymentFragment : Fragment() {
         })
         binding.btnPay.setOnClickListener {
             hideKeyboard(this.requireActivity())
-            if (fullName == "" ||fullName.length < 2 ||numberCard == "" ||
-                numberCard.length < 16|| expiry == "" || expiry.length < 4|| cvv == "" || cvv.length < 3  ) {
+            if (fullName == "" || fullName.length < 2 || numberCard == "" ||
+                numberCard.length < 16 || expiry == "" || expiry.length < 4 || cvv == "" || cvv.length < 3
+            ) {
                 AlertDialog.Builder(this.requireContext()).setTitle("Error")
                     .setMessage("Please fill in all the details")
                     .setPositiveButton("OK") { _, _ -> }
@@ -105,9 +106,8 @@ class PaymentFragment : Fragment() {
                             Toast.LENGTH_LONG).show()
                         PaymentViewModel.addToPayment(Payment(name = fullName.toString(),
                             totalPrice = (ticket.numberOfTickets * 35),
-                            cardNumber = numberCard.toString(),
-                            cvv = cvv.toString(),
-                            expiry = expiry.toString()))
+                            time = ticket.time.toString(),
+                            cinema = ticket.location, ticket = ticket.numberOfTickets.toString()))
                         findNavController().navigate(R.id.action_paymentFragment_to_navigation_home)
                     }
                     .setNegativeButton("Cancel") { _, _ ->

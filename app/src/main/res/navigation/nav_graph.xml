@@ -31,8 +31,8 @@
     <fragment
         android:id="@+id/forget_Password_Fragment"
         android:name="niv.porat.cinema_world.login.Forget_Password_Fragment"
-        android:label="fragment_forget__password_"
-        tools:layout="@layout/fragment_forget__password_" >
+        android:label="Forget Password"
+        tools:layout="@layout/fragment_forget__password_">
         <action
             android:id="@+id/action_forget_Password_Fragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
