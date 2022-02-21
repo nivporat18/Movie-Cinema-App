@@ -38,7 +38,7 @@
     <fragment
         android:id="@+id/navigation_tvshow"
         android:name="niv.porat.cinema_world.ui.tv.TvFragment"
-        android:label="TvShow"
+        android:label="@string/TvShow"
         tools:layout="@layout/tv_fragment">
         <action
             android:id="@+id/action_tvFragment_to_all_Info_Fragment"
@@ -48,7 +48,7 @@
     <fragment
         android:id="@+id/all_Info_Fragment"
         android:name="niv.porat.cinema_world.fragment_info_pages.All_Info_Fragment"
-        android:label="Info"
+        android:label="@string/Info"
         tools:layout="@layout/all__info__fragment">
         <argument
             android:name="productPhotoArgument"
@@ -75,7 +75,7 @@
     <fragment
         android:id="@+id/navigation_favorite"
         android:name="niv.porat.cinema_world.ui.notifications.NotificationsFragment"
-        android:label="Favorite"
+        android:label="@string/Favorite"
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/paymentFragment"

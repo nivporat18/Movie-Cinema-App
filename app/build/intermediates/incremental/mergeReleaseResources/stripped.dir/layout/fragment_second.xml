@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_register"
-    tools:context=".SecondFragment">
+    tools:context=".login.SecondFragment">
 
 
 
@@ -44,7 +44,7 @@
                android:drawableRight="@drawable/ic_account_24"
                android:ems="10"
                android:layout_marginTop="15dp"
-               android:hint="@string/first_name"
+               android:hint="First Name"
                android:inputType="textPersonName"
                android:minHeight="48dp" />
 
@@ -55,7 +55,7 @@
                android:layout_height="48dp"
                android:layout_marginTop="24dp"
                android:background="@color/white"
-               android:hint="@string/last_name"
+               android:hint="Last Name"
                android:drawableEnd="@drawable/ic_person_24"
                android:textColor="@color/black"
                app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +70,7 @@
                android:layout_marginTop="24dp"
                android:background="@color/white"
                android:ems="10"
-               android:hint="@string/email"
+               android:hint="Email"
                android:drawableEnd="@drawable/ic_email_24"
                android:inputType="textPersonName"
                android:minHeight="48dp"
@@ -85,7 +85,7 @@
                android:layout_marginTop="24dp"
                android:background="@color/white"
                android:ems="10"
-               android:hint="@string/password"
+               android:hint="Password"
                android:drawableEnd="@drawable/ic_lock_24"
                android:inputType="textPassword"
                android:minHeight="48dp"

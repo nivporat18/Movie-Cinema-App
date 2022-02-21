@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="niv.porat.cinema_world">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,10 +15,10 @@
         android:theme="@style/Theme.Cinema_world">
         <activity
             android:name=".viewpager.OnBoarding"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".login.AuthActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_auth"
             android:theme="@style/Theme.Cinema_world.NoActionBar" />
         <activity
@@ -29,6 +30,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -37,6 +39,9 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+
+
     </application>
 
 </manifest>

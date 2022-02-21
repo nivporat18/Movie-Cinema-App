@@ -18,19 +18,35 @@ android {
         applicationId "niv.porat.cinema_world"
         minSdk 23
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         buildConfigField('String', 'TMBD_BASE_URL', apikeyProperties['TMBD_BASE_URL'])
         buildConfigField('String', 'TMBD_API_KEY', apikeyProperties['TMBD_API_KEY'])
+        signingConfig signingConfigs.debug
     }
+    signingConfigs {
+        debug{
 
+        }
+        release {
+        storeFile file('/Users/nivporat/Downloads/project Android /google_play_key/Untitled')
+            storePassword 'Nivporat18'
+            keyAlias 'niv-app'
+            keyPassword 'Nivporat18'
+        }
+    }
     buildTypes {
+        debug{
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {
@@ -53,8 +69,8 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
 
     //firebase:
     implementation 'com.google.firebase:firebase-messaging-ktx:23.0.0'
@@ -77,7 +93,7 @@ dependencies {
 
 
     //databaseRoom
-    def roomVersion = "2.4.0"
+    def roomVersion = "2.4.1"
     implementation "androidx.room:room-runtime:$roomVersion"
     annotationProcessor "androidx.room:room-compiler:$roomVersion"
     implementation "androidx.room:room-ktx:$roomVersion"

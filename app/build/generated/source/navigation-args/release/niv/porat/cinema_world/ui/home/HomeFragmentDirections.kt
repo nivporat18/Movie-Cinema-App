@@ -11,13 +11,14 @@ public class HomeFragmentDirections private constructor() {
   private data class ActionNavigationHomeToPaymentFragment(
     public val ticket: String
   ) : NavDirections {
-    public override fun getActionId(): Int = R.id.action_navigation_home_to_paymentFragment
+    public override val actionId: Int = R.id.action_navigation_home_to_paymentFragment
 
-    public override fun getArguments(): Bundle {
-      val result = Bundle()
-      result.putString("ticket", this.ticket)
-      return result
-    }
+    public override val arguments: Bundle
+      get() {
+        val result = Bundle()
+        result.putString("ticket", this.ticket)
+        return result
+      }
   }
 
   public companion object {
